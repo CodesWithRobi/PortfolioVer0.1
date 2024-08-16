@@ -40,9 +40,14 @@ body {
 
 .title {
   width: 42vw;
+  height: 45vw;
+  padding: 11vw 5vw 0 8vw;
+  color: #7a1755;
+  vertical-align: top;
 }
 
 section {
+  height: 45vw;
   margin-top: 1%;
 }
 
@@ -50,5 +55,38 @@ section {
   background: url("../assets/bike.jpg") white center center no-repeat;
   background-size: cover;
   width: 58vw;
-  height: 80%;
+  height: 45vw;
+}
+
+#welcome {
+  font-size: 1.3vw;
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.intro {
+  font-size: 3.5vw;
+  font-family: "Quicksand", sans-serif;
+  margin: 2vw 0;
+}
+
+#explore {
+  width: 85%;
+  height: 4vw;
+  margin: 1vw 0;
+  padding: 0 4%;
+  border: 2px solid grey;
+  color: grey;
+  background-color: transparent;
+  font-size: 1.1vw;
+}
+
+#explore-but {
+  color: white;
+  background-color: #7a1755;
+  font-size: 1.2vw;
+  border: none;
+  padding: 2% 7%;
 }
